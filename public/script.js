@@ -16,10 +16,3 @@ buscar.addEventListener("click", () => {
   }
   window.location.href = `/buscar?${filter}`;
 });
-/* 
-const Buscar = document.getElementById("buscar");
-const inputNombre = document.getElementById("artista");
-
-Buscar.addEventListener("click", function() {
-  window.location.href = "/buscar?nombre=" + artista.value;
-}); */
