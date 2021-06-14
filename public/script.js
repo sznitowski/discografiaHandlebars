@@ -1,7 +1,5 @@
 const buscar = document.getElementById("buscar");
 
-/* const tarjetas = document.getElementById("tarjetas"); */
-
 buscar.addEventListener("click", () => {
   const artista = document.getElementById("artista").value;
   const titulo = document.getElementById("titulo").value;
